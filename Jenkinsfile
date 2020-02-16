@@ -27,7 +27,9 @@
 						
 						stage('Get approval')
 						{
-							input 'Should i start build?'
+							steps {
+								input 'Should i start build?'
+							}
 							}	
 						
 						stage('build hi')
