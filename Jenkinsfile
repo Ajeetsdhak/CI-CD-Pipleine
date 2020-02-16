@@ -24,7 +24,11 @@
 								sh 'echo hi'
 								}
 						}		
-					
+						
+						stage('Get approval')
+						{
+							Input "Should i start build?"
+						}	
 						stage('build hi')
 						{
 							steps {
