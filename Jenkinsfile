@@ -6,8 +6,8 @@
 					{
 						stage('print hi')
 						{
-							steps{
-								sg 'echo hi'
+							steps {
+								sh 'echo hi'
 								}
 							
 						}		
