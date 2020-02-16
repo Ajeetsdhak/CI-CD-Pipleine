@@ -1,7 +1,7 @@
  pipeline
 	{
 		ageny any
-			{
+			
 				stages
 					{
 						stage('print hi')
@@ -12,5 +12,5 @@
 							
 						}		
 					}	
-			}	
+				
 	}		
